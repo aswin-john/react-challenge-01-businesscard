@@ -30,7 +30,7 @@ function Header() {
       >
         ConnectCard
       </div>
-      <img src={myphoto} alt="myphoto" style={{ width: "20px", height: "20px", borderRadius: "20px" }} />
+      <img src={myphoto} alt="myphoto" style={{ width: "20px", height: "20px", borderRadius: "20px", objectFit: "cover" }} />
     </div>
   );
 }

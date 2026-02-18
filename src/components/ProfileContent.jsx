@@ -20,7 +20,7 @@ function ProfileContent() {
         flexDirection: "column"
       }}
     >
-      <img src={myphoto} alt="myphoto" style={{ width: "128px", height: "128px", borderRadius: "64px" }} />
+      <img src={myphoto} alt="myphoto" style={{ width: "128px", height: "128px", borderRadius: "64px", objectFit: "cover" }} />
       <div
         style={{
           fontFamily: "Inter, sans-serif",

@@ -10,16 +10,19 @@ function App() {
 
   return (
     <>
-      <div
+      {/* <div
         style={{
           backgroundColor: "#121417",
-           width: "100%",  
+          width: "100%",  
           height: "100vh",
           display: "flex",
           // justifyContent:'center',
           // alignItems:'center'
           flexDirection:'column'
         }}
+      > */}
+      <div 
+      className="bg-[#121417] w-full min-h-screen flex flex-col"
       >
 
         <Header/>
