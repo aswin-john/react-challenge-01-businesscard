@@ -1,12 +1,13 @@
+
 import React from "react";
 
-import myphoto from "../assets/myphoto.JPG"
+import myphoto from "../assets/myphoto.jpg"
 
 function Header() {
   return (
     <div
       style={{
-        width: "100%", 
+        width: "100%",
         height: "65px",
         display: "flex",
         justifyContent: "space-between",
@@ -29,7 +30,7 @@ function Header() {
       >
         ConnectCard
       </div>
-      <img src = {myphoto} alt = "myphoto" style = {{width:"20px",height:"20px",borderRadius:"20px"}}/>
+      <img src={myphoto} alt="myphoto" style={{ width: "20px", height: "20px", borderRadius: "20px" }} />
     </div>
   );
 }

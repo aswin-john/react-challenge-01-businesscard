@@ -1,25 +1,26 @@
+
 import React from "react";
 
-import myphoto from "../assets/myphoto.JPG"
+import myphoto from "../assets/myphoto.jpg";
 
 function ProfileContent() {
   return (
     <div
       style={{
-        width: "100%", 
+        width: "100%",
         // height: "65px",
         display: "flex",
         // justifyContent: "center",
         alignItems: "center",
 
 
-        marginTop:"36px",
+        marginTop: "36px",
 
         padding: "0 40px",
-        flexDirection:"column"
+        flexDirection: "column"
       }}
     >
-        <img src = {myphoto} alt = "myphoto" style = {{width:"128px",height:"128px",borderRadius:"64px"}}/>
+      <img src={myphoto} alt="myphoto" style={{ width: "128px", height: "128px", borderRadius: "64px" }} />
       <div
         style={{
           fontFamily: "Inter, sans-serif",
@@ -28,7 +29,7 @@ function ProfileContent() {
           lineHeight: "28px",
           letterSpacing: "0px",
           color: "#FFFFFF",
- 
+
         }}
       >
         Aswin John
@@ -41,7 +42,7 @@ function ProfileContent() {
           lineHeight: "24px",
           letterSpacing: "0px",
           color: "#9EABBA",
-       
+
         }}
       >
         Freelance Software Engineer
